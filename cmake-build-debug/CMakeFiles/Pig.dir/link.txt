@@ -1,0 +1,3 @@
+"E:\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Pig.dir/objects.a
+E:\minGW\mingw64\bin\ar.exe cr CMakeFiles\Pig.dir/objects.a @CMakeFiles\Pig.dir\objects1.rsp
+E:\minGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Pig.dir/objects.a -Wl,--no-whole-archive -o Pig.exe -Wl,--out-implib,libPig.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Pig.dir\linklibs.rsp
